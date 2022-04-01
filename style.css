@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    position: relative;
+    background-color: black;
+    display: flex;
+    height: 70px;
+}
+.dev{
+    font-size: 40px;
+    position: absolute;
+    width: 250px;
+    color: aliceblue;
+    text-align: center;
+    top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:link, a:visited{
+    color: aliceblue;
+    text-decoration: none;
+}
+a:hover, a:active{
+    color: red;
+}
+.html{
+    position: absolute;
+    right: 250px;
+    width: 80px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    top: 25px;
+}
+.css{
+    position: absolute;
+    right: 150px;
+    width: 80px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    top: 25px;
+}.java{
+    position: absolute;
+    right: 50px;
+    width: 80px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    top: 25px;
+}
+.bigpic{
+    height: 1150px;
+}
+.bigpic img{
+    top: 100px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+}
+.slast{
+    position: relative;
+    width: auto;
+    padding: 30px;
+    height: 450px;
+    display: flex;
+}
+.lhtml{
+    position: absolute;
+    left: 80px;
+    width: 500px;
+    height: 150px;
+}
+.lcss{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    left: 720px;
+}
+.ljavascript{
+    position: absolute;
+    right: 80px;
+    height: 150px;
+    width: 500px;
+}
+.lhtml img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: auto;
+    height: 100%;
+}
+.lcss img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 100%;
+    margin-bottom: 10px;
+}
+.ljavascript img{
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 100%;
+}
+.text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+.last{
+    height: 100px;
+    display: flex;
+    background-color: black;
+    color: antiquewhite;
+    margin: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.last i {
+    margin: 15px;
+}
